@@ -1,0 +1,16 @@
+p {
+    color: pink;
+    font-size: 20px;
+               }               /* IN BETWEEN */
+}
+
+h1 {
+    /* Styling of the h1 */
+    font-family: cursive;
+    font-size: 3empx;
+}
+
+a {
+    text-decoration:wavy;
+    color: black;
+}
