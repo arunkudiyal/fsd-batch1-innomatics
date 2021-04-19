@@ -1,16 +1,49 @@
+/* RESET STYLING */
+* {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#container {
+    background-color: burlywood;
+    margin: auto;
+}
+
+.container2 {
+    width: 600px;
+    padding-left: 500px;
+    padding-right: 300px;
+    text-align: center;
+    display: block;
+    background-color: white;
+}
+
 p {
     color: pink;
     font-size: 20px;
-               }               /* IN BETWEEN */
+    /* IN BETWEEN */
+}
+
+
+.odd {
+    color: grey;
+}
+
+.even {
+    color: blue;
+}
+
+#span1 {
+    color: chartreuse;
+}
+
+#para {
+    color:brown;
 }
 
 h1 {
     /* Styling of the h1 */
-    font-family: cursive;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3empx;
-}
-
-a {
-    text-decoration:wavy;
-    color: black;
 }
