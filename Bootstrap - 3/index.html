@@ -10,7 +10,13 @@
     <link rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap.min.css"> -->
 
     <!-- Include the CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -340,19 +346,102 @@
         <a href="#"> <u>Inbox</u> <span class="badge">50</span> </a>
         <hr>
 
-        <!-- ALERTS -->
-        <h3>Alerts :</h3>
+        <!-- DROPDOWNS -->
+    <div class="container">
+        <h3>Dropdown :</h3> <br>
 
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Menu <span class="caret"></span> </button>
+
+            <!-- <ul class="dropdown-menu">
+                <li> <a href="#">HTML</a> </li>
+                <li> <a href="#">CSS</a> </li>
+                <li> <a href="#">Bootstrap</a> </li>
+                <li> <a href="#">JavaScript</a> </li>
+            </ul> -->
+
+            <div class="dropdown-menu">
+
+                <div class="dropdown-item">
+                    <a href="#"> HTML </a>
+                </div>
+
+                <div class="dropdown-item">
+                    <a href="#"> CSS </a>
+                </div>
+
+                <div class="dropdown-item">
+                    <a href="#"> Bootstrap </a>
+                </div>
+
+                <div class="dropdown-item">
+                    <a href="#"> JavaScript </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <hr>
+
+    <div class="container">
+        <h3>Alert :</h3> <hr>
+        <div class="alert alert-success" role="alert">A success Alert</div>
+
+        <div class="alert alert-info" role="alert">A info. Alert</div>
+
+        <div class="alert alert-warning" role="alert">A warning Alert</div>
+
+        <div class="alert alert-danger" role="alert">A danger Alert</div>
     </div>
 
     <hr>
 
+
     <div class="container">
         <!-- GRIDS -->
-        <h3>Bootstrap Grids :</h3>
+        <h3>Bootstrap Grids :</h3> <br>
+
+        <h4> 8 x 4 Grid: </h4>
+        <div class="row">
+            <div class="col-md-8">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus officiis natus, quis delectus ducimus voluptates dignissimos repudiandae labore nihil ipsa tenetur voluptate numquam! Aspernatur consectetur saepe explicabo atque beatae tenetur praesentium ex, amet reiciendis odit incidunt unde odio, debitis eveniet, id ipsum. Maiores quia saepe dolorum error cumque ipsum.</p>
+            </div>
+
+            <div class="col-md-4">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aliquid, vitae minus suscipit id quod. Velit aperiam laudantium perferendis sed! Asperiores incidunt dolorem officiis doloribus fugit autem neque eum magni!</p>
+            </div>
+        </div>
+
+        <h4> 3 x 6 x 3 Grid :</h4>
+        <div class="row">
+            <div class="col-md-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit consequatur quod iusto quas perferendis itaque eius ratione, eaque dolores! Assumenda?</p>
+            </div>
+
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dignissimos cumque ipsa, reprehenderit omnis magni velit voluptatem. Delectus omnis blanditiis quos aspernatur! Tempore et asperiores temporibus debitis alias? Iure nam atque aliquid, animi dolore blanditiis dolorem voluptatum quo similique optio architecto iusto rerum. Voluptatibus, non est reiciendis illo ad fugiat!</p>
+            </div>
+
+            <div class="col-md-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit consequatur quod iusto quas perferendis itaque eius ratione, eaque dolores! Assumenda?</p>
+            </div>
+        </div>
+
+        <h4> 6 x 6 Grid :</h4>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus iusto, alias, deleniti ipsum expedita odit explicabo facere, vero odio commodi cupiditate! Nisi delectus nam blanditiis tempore illo ut hic molestiae assumenda sequi sapiente optio temporibus ipsam facilis harum minima veniam, sed molestias modi deserunt non eum, asperiores quas ducimus. Hic laudantium nemo molestiae nihil repudiandae molestias tempore sit totam inventore!</p>
+            </div>
+
+            <div class="col-md-6">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus iusto, alias, deleniti ipsum expedita odit explicabo facere, vero odio commodi cupiditate! Nisi delectus nam blanditiis tempore illo ut hic molestiae assumenda sequi sapiente optio temporibus ipsam facilis harum minima veniam, sed molestias modi deserunt non eum, asperiores quas ducimus. Hic laudantium nemo molestiae nihil repudiandae molestias tempore sit totam inventore!</p>
+            </div>
+        </div>
+
     </div>
 
-    <div style="height: 500px"></div>
+    <hr>
 
 </body>
 </html>
